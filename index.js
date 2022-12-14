@@ -24,6 +24,7 @@ function blink(name) {
 
 function playSound(name) {
     var audio = new Audio("sounds/" + name + ".mp3"); 
+    audio.volume = 0.03;
     audio.play();
 }
 
